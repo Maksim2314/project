@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    max-width: 1152px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: Heebo;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+ul {
+    padding-top: 27px;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 33px;
+    padding-right: 60px;
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 180px;
+    padding-left: 148px;
+    padding-right: 149px;
+}
+
+.about__right img {
+    max-height: 200px;
+}
+
+.about__left h2 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    max-width: 506px;
+    margin-top: 40px;
+}
+
+.about__left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 500px;
+    margin-top: 38px;
+}
+
+.about__left button {
+    color: #FFFFFF;
+    background-color: #FF6464;
+    border-radius: 2px;
+    border: none;
+    padding: 9px 21px 17px 20px;
+    margin-top: 45px;
+}
+
+.recent_posts {
+    margin-top: 71px;
+    background-color: #EDF7FA;
+    padding: 0 148px 32px 148px;
+}
+
+.recent_posts__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent_posts__top p:nth-child(1) {
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.recent_posts__top p:nth-child(2) {
+    font-family: Heebo;
+    font-size: 16px;
+    color: #00A8CC;
+}
+
+.recent_posts_one h3 {
+    font-family: Heebo;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.recent_posts_one {
+    background-color: white;
+    font-family: Heebo;
+    padding: 23px;
+}
+
+.recent_posts_one:last-child {
+    margin-left: 20px;
+}
+
+.recent_posts_middle {
+    position: relative;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    max-width: 250px;
+}
+
+.recent_posts_middle::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 20px;
+    width: 1px;
+    top: 11px;
+    left: 115px;
+}
+
+.recent_posts_one p {
+    font-size: 16px;
+    color: black;
+    margin-top: 11px;
+}
+
+.recent_posts__two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured_works__list-item {
+    position: relative;
+    display: flex;
+}
+
+.featured_works {
+    padding: 0 146px 0 146px;
+    margin-top: 22px;
+}
+
+.featured_works p:nth-child(1) {
+    font-size: 22px;
+    line-height: 60px;
+    margin-top: 15px;
+}
+
+.featured_works__right {
+    margin-left: 18px;
+}
+
+.featured_works_middle {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+}
+
+.featured_works_middle .year {
+    padding: 4px 10px;
+    color: white;
+    background-color: #142850;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.featured_works_middle p {
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.featured_works_bottom {
+    font-size: 16px;
+    color: #21243D;
+    margin-top: 17px;
+}
+
+.featured_works__list-item::before {
+    content: "";
+    position: absolute;
+    width: 858px;
+    height: 1px;
+    background-color: gray;
+    bottom: -15px;
+    left: 0;
+}
+
+.featured_works__list-item:nth-child(2) {
+    margin: 31px 0;
+}
+
+.featured_works__list-item:nth-child(4) {
+    margin-top: 31px;
+}
+
+.burger__menu {
+    position: relative;
+}
+
+.burger {
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    z-index: 999;
+    right: 0;
+}
+
+.burger__list {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+.show {
+    display: flex;
+}
+
+footer {
+    margin-top: 134px;
+    margin-bottom: 54px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.footer__bottom p {
+    color: var(--dark, #21243D);
+    font-family: Heebo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.footer__icon img {
+    width: 30px;
+}
+
+
+.featured_works h4 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.work_posts {
+    margin-top: 90px;
+}
+
+.work_list {
+    margin-top: 40px;
+}
+
+.work_item:nth-child(2), .work_item:nth-child(3), .work_item:nth-child(4) {
+    margin-top: 90px;
+}
+
+.work_item .featured_works_bottom {
+    width: 420px;
+}
